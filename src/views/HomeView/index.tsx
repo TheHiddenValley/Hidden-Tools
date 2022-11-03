@@ -28,7 +28,7 @@ export const HomeView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>Hidden Tools</a>
+                    <a> </a>
                   </Link>
                 </li>
               </ul>
@@ -45,7 +45,7 @@ export const HomeView: FC = ({ }) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl font-bold">
-                  Degens, welcome to some free tools to get you back some SOL.
+                  Hidden Tools
                 </h1>
                 <p className="mb-2">
                   You're Welcome.
@@ -63,7 +63,7 @@ export const HomeView: FC = ({ }) => {
                     <a className="text-4xl font-bold mb-5">
                       NFT Incinerator
                     </a>
-                    <div>Burn Solana NFTs and get SOL back, make sure not to burn your official ones tho.</div></div>
+                    <div>Burn Solana NFTs and get SOL back, make sure not to burn your official ones.</div></div>
                 </Link>
 
               </li>
@@ -83,7 +83,7 @@ export const HomeView: FC = ({ }) => {
                     <a className="text-4xl font-bold mb-5">
                       Account Closer
                     </a>
-                    <div>Close empty account of unused token and get SOL back.</div></div>
+                    <div>Close empty account of unused tokens and get SOL back.</div></div>
                 </Link>
 
               </li>
@@ -121,9 +121,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/multisender">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      📨 📨 📨  -- Multi Sender
+                      Bulk Sender
                     </a>
-                    <div>A UI to send multiple tokens in 1 transaction (same token to different people/many tokens to one person)</div>
+                    <div>Send multiple tokens in 1 transaction!</div>
                   </div>
                 </Link>
               </li>
@@ -141,7 +141,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/upload">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      Arweave Intergrator
+                      Arweave Integrator
                     </a>
                     <div>Upload file to Arweave</div>
                   </div>
