@@ -52,7 +52,7 @@ export const BurnSPLView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -69,7 +69,7 @@ export const BurnSPLView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                Burn your SPL <SolanaLogo /> tokens and get $SOL back
+                Burn scam NFTs and get SOL back
                 </h1>
                 <div className="w-full min-w-full">
                   <div>
@@ -141,7 +141,7 @@ const TokenList = ({ tokens, error, setRefresh}: TokenListProps) => {
   if (!tokens?.length) {
     return (
       <div className="text-center text-2xl pt-16">
-        No token found in this wallet
+        No NFTs found in this wallet
       </div>
     );
   }
