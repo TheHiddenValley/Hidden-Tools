@@ -5,7 +5,6 @@ import { PIPButtonCustom } from "./PIPButtonCustom";
 const Footer = () => {
 
     return (
-        <footer className="text-center text-white">
             <div className="w-100 pb-2">
                 <div className="flex justify-center">
 
