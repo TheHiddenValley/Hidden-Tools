@@ -28,7 +28,7 @@ export const HomeView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -45,10 +45,10 @@ export const HomeView: FC = ({ }) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl font-bold">
-                  Hello Solana <SolanaLogo /> World!
+                  Degens, welcome to some free tools to get you back some SOL.
                 </h1>
                 <p className="mb-2">
-                  This website includes amazing tools to help you in the solana ecosystem.
+                  You're Welcome.
                 </p>
               </div>
             </div>
@@ -61,9 +61,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/gallery">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- Burn NFT
+                      NFT Incinerator
                     </a>
-                    <div>A UI to burn Solana NFTs and get SOL back</div></div>
+                    <div>Burn Solana NFTs and get SOL back, make sure not to burn your official ones tho.</div></div>
                 </Link>
 
               </li>
@@ -71,9 +71,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/burnSPL">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- Burn SPL token
+                      Ponzi Coin Burner
                     </a>
-                    <div>A UI to burn SPL tokens and get SOL back</div></div>
+                    <div>Burn your shit coins here!</div></div>
                 </Link>
 
               </li>
@@ -81,9 +81,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/closeaccount">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔒 -- Close empty account
+                      Account Closer
                     </a>
-                    <div>A UI to close empty account of unused token and get SOL back</div></div>
+                    <div>Close empty account of unused token and get SOL back.</div></div>
                 </Link>
 
               </li>
@@ -91,9 +91,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/revoke">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🚫 -- Revoke authority
+                      Revoke authority
                     </a>
-                    <div>A UI to view the tokens you have delegated rights to and revoke them </div></div>
+                    <div>Make sure to use this to revoke sus things!</div></div>
                 </Link>
 
               </li>
@@ -101,9 +101,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/spltoken">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      🧪 -- SPL Token Creator
+                      Token Creator
                     </a>
-                    <div>A UI to create your own Solana token</div>
+                    <div>Create SPL Tokens using this.</div>
                   </div>
                 </Link>
               </li>
@@ -111,9 +111,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/createNFTcollection">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      🖼️ -- Create NFT Collection
+                      Create NFT Collection
                     </a>
-                    <div>A UI to create and migrate NFTs to a Collection</div>
+                    <div>Create and migrate NFTs to a Collection.</div>
                   </div>
                 </Link>
               </li>
@@ -131,9 +131,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/updateNFTmetadata">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      ✍️ -- Update NFT metadata
+                      Metadata Updater
                     </a>
-                    <div>A UI to update the metadata of your NFT</div>
+                    <div>Update the metadata of your NFT</div>
                   </div>
                 </Link>
               </li>
@@ -141,9 +141,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/upload">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      📤 -- Upload file
+                      Arweave Intergrator
                     </a>
-                    <div>A UI to upload file to Arweave</div>
+                    <div>Upload file to Arweave</div>
                   </div>
                 </Link>
               </li>
@@ -151,9 +151,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/suatmm">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      📨 -- Send NFT message
+                      NFT Messenger
                     </a>
-                    <div>A UI to send a message to the owner of the NFT or the .sol domain name you want</div>
+                    <div>Send NFT messages to your Web 3.0 Crush.</div>
                   </div>
                 </Link>
 
