@@ -11,11 +11,6 @@ module.exports = {
       // serif: ['Merriweather', 'serif'],
     },
     extend: {
-     <div class="bg-cover bg-center ..." style="background-image: url('https://cdn.discordapp.com/attachments/947332664799674438/956615908170792980/cyberfighter2.png')"></div>
-      backgroundImage: {
-        'hero-pattern': "url('https://cdn.discordapp.com/attachments/947332664799674438/956615908170792980/cyberfighter2.png')",
-        'footer-texture': "url('https://cdn.discordapp.com/attachments/947332664799674438/956615908170792980/cyberfighter2.png')",
-      }
       // spacing: {
       //   '128': '32rem',
       //   '144': '36rem',
@@ -53,7 +48,12 @@ module.exports = {
       // "fantasy",
       // "wireframe",
       // "black",
-      "luxury",
+            {
+        light: {
+          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+          primary: "blue",
+          "primary-focus": "mediumblue",
+        },
       // "dracula",
     ],
     base: true,
