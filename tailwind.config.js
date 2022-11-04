@@ -27,27 +27,7 @@ module.exports = {
   daisyui: {
     styled: true,
     themes: [
-          {
-          mytheme: {
-          
- "primary": "#FFFF00",
-          
- "secondary": "#FF0000",
-          
- "accent": "#008000",
-          
- "neutral": "#272626",
-          
- "base-100": "#000000",
-          
- "info": "#FF0000",
-          
- "success": "#008000",
-          
- "warning": "#FFFF00",
-          
- "error": "#FF0000",
-          },
+      "halloween"
     ],
     base: true,
     utils: true,
