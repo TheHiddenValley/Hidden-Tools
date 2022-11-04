@@ -50,7 +50,7 @@ export const CloseAccountView: FC = ({ }) => {
             <div className="text-sm breadcrumbs">
               <ul className="text-xs sm:text-xl">
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.thehiddenvalley.io/utility">
                     <a>Hidden Tools</a>
                   </Link>
                 </li>
