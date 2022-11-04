@@ -1057,8 +1057,8 @@ export const MultiSenderView: FC = ({ }) => {
             <div className="text-sm breadcrumbs">
               <ul className="text-xs sm:text-xl">
                 <li>
-                  <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                  <Link href="https://www.thehiddenvalley.io/utility">
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -1075,9 +1075,9 @@ export const MultiSenderView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Multi Send Token <SolanaLogo />
+                  Bulk Sender
                 </h1>
-                <h3 className="font-semibold text-xl pb-5" >Supports public address, .sol domain name and Twitter handle with @</h3>
+                <h3 className="font-semibold text-xl pb-5" >Supports public addresses and .sol domain names</h3>
 
                 {nbToken == '' && CurrencyType == '' &&
                   <div>
@@ -1086,7 +1086,7 @@ export const MultiSenderView: FC = ({ }) => {
                         <li className="m-5" onClick={() => { setNbToken('one'); reset() }}>
                           <div className="p-4 hover:border">
                             <a className="text-4xl font-bold mb-5">
-                              1 token - Multiple receivers
+                              One Token to Multiple Addresses
                             </a>
                             <div>Send one token to multiple receivers</div>
                           </div>
@@ -1095,7 +1095,7 @@ export const MultiSenderView: FC = ({ }) => {
                         <li className="m-5" onClick={() => { setNbToken('multi'); reset() }}>
                           <div className="p-4 hover:border">
                             <a className="text-4xl font-bold mb-5">
-                              Multiple token - 1 receiver
+                              Multiple Tokens to One Address
                             </a>
                             <div>Send multiple tokens to one receiver</div>
                           </div>
@@ -1103,7 +1103,7 @@ export const MultiSenderView: FC = ({ }) => {
                         <li className="m-5" onClick={() => { setCurrencyType('domain'); reset() }}>
                           <div className="p-4 hover:border">
                             <a className="text-4xl font-bold mb-5">
-                              Domains transfer
+                              Domains Transfer
                             </a>
                             <div>Transfer multiple Solana domains name to one receiver</div>
                           </div>
