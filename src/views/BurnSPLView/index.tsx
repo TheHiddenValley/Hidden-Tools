@@ -69,7 +69,7 @@ export const BurnSPLView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                Burn scam NFTs and get SOL back
+                Ponzi Coin Burner
                 </h1>
                 <div className="w-full min-w-full">
                   <div>
