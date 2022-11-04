@@ -39,7 +39,7 @@ module.exports = {
       // "retro",
       // "cyberpunk",
       // "valentine",
-      // "halloween",
+      "halloween",
       // "garden",
       // "forest",
       // "aqua",
@@ -48,11 +48,6 @@ module.exports = {
       // "fantasy",
       // "wireframe",
       // "black",
-      {
-        light: {
-          bg-{black},
-        },
-      },
       // "dracula",
     ],
     base: true,
