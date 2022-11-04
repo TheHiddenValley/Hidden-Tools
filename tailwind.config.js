@@ -48,12 +48,13 @@ module.exports = {
       // "fantasy",
       // "wireframe",
       // "black",
-            {
+      {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
           primary: "blue",
           "primary-focus": "mediumblue",
         },
+      },
       // "dracula",
     ],
     base: true,
