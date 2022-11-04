@@ -148,8 +148,8 @@ const NftList = ({ nfts, error, setRefresh }: NftListProps) => {
   return (
     <div>
       <ul className="text-left font-semibold text-base mb-4">
-        <li className=" mb-1"><span className='text-[#16c60c] font-semibold'> Burn scam NFTs here and get some SOL back!</li>
-        <li className=" mb-1"><span className='text-[#F03A17] font-semibold'> Choose which NFT you would like to burn. Make sure you do not burn Official NFTs or you will never get them back. </li>
+        <li className=" mb-1"><span className='text-[#16c60c] font-semibold'> Burn scam NFTs here </span> and get some SOL back!</li>
+        <li className=" mb-1"><span className='text-[#F03A17] font-semibold'> Choose which NFT you would like to burn. </span> Make sure you do not burn Official NFTs or you will never get them back. </li>
       </ul>
 
       <BurnButton toBurn={NFTstoBurn} connection={connection} publicKey={publicKey} wallet={wallet} setRefresh={setRefresh} />
