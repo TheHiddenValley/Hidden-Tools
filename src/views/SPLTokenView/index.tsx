@@ -58,8 +58,8 @@ export const SPLTokenView: FC = ({ }) => {
             <div className="text-sm breadcrumbs">
               <ul className="text-xs sm:text-xl">
                 <li>
-                  <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                  <Link href="https://www.thehiddenvalley.io/utility">
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -76,28 +76,28 @@ export const SPLTokenView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Create Solana <SolanaLogo /> token
+                  Create Solana tokens
                 </h1>
 
                 <div className="md:w-[600px] mx-auto">
                   <div className="md:w-[480px] flex flex-col m-auto">
 
-                    <div className="my-2 uppercase underline flex font-bold text-2xl">Token infos</div>
-                    <label className="underline flex font-bold">Token Name</label>
+                    <div className="my-2 uppercase flex font-bold text-2xl">Input token info below</div>
+                    <label className="flex font-bold">Token Name</label>
                     <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                       type="text"
                       placeholder="Token Name"
                       onChange={(e) => setTokenName(e.target.value)}
                     />
 
-                    <label className="underline flex font-bold">Symbol</label>
+                    <label className="flex font-bold">Symbol</label>
                     <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                       type="text"
                       placeholder="Symbol"
                       onChange={(e) => setSymbol(e.target.value)}
                     />
 
-                    <label className="underline flex font-bold">Number of tokens to mint</label>
+                    <label className="flex font-bold">Number of Tokens</label>
                     <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                       type="number"
                       min="0"
@@ -105,7 +105,7 @@ export const SPLTokenView: FC = ({ }) => {
                       onChange={(e) => setQuantity(parseInt(e.target.value))}
                     />
 
-                    <label className="underline flex font-bold">Number of decimals</label>
+                    <label className="flex font-bold">Number of Decimals</label>
                     <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                       type="number"
                       min="0"
@@ -114,21 +114,21 @@ export const SPLTokenView: FC = ({ }) => {
                     />
 
 
-                    <div className="mt-5 mb-2 uppercase underline flex font-bold text-2xl">Metadatas</div>
+                    <div className="mt-5 mb-2 uppercase flex font-bold text-2xl">Metadata</div>
                     <div className="flex justify-center">
                       {metadataMethod == 'url' ?
-                        <button className="text-white mx-2  font-semibold bg-[#343e4f] md:w-[280px] rounded-full shadow-xl border">Use an existing medatata URL</button>
+                        <button className="text-white mx-2  font-semibold bg-[#343e4f] md:w-[280px] rounded-full shadow-xl border">Use an existing metadata</button>
                         : <button className="text-white mx-2  font-semibold bg-[#667182] md:w-[280px] rounded-full shadow-xl border" onClick={() => { setMetadataMethod('url'), setTokenDescription('') }}>Use an existing medatata URL</button>
                       }
                       {metadataMethod == 'upload' ?
-                        <button className="text-white mx-2 font-semibold bg-[#343e4f] md:w-[200px] rounded-full shadow-xl border">Create the metadata</button>
+                        <button className="text-white mx-2 font-semibold bg-[#343e4f] md:w-[200px] rounded-full shadow-xl border">Create my own!</button>
                         : <button className="text-white mx-2 font-semibold bg-[#667182] md:w-[200px] rounded-full shadow-xl border" onClick={() => { setMetadataMethod('upload'), setMetadataURL(''), setFile(undefined), setFileName('') }}>Create the metadata</button>}
                     </div>
 
                     {metadataMethod == 'url' &&
                       <div>
                         <div>
-                          <label className="underline mt-2 flex font-bold">Metadata Url</label>
+                          <label className="mt-2 flex font-bold">Metadata Url</label>
                           <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                             type="text"
                             placeholder="Metadata Url"
@@ -145,7 +145,7 @@ export const SPLTokenView: FC = ({ }) => {
                           <label className="underline mt-2 flex font-bold">Description</label>
                           <input className="my-[1%] md:w-[480px] text-left text-black pl-1 border-2 rounded-2xl border-black"
                             type="text"
-                            placeholder="Description of the token/project"
+                            placeholder="Description of the token"
                             onChange={(e) => setTokenDescription(e.target.value)}
                           />
                         </div>
@@ -166,7 +166,7 @@ export const SPLTokenView: FC = ({ }) => {
                       </div>
                     }
 
-                    <div className="mt-5 mb-2 uppercase underline flex font-bold text-2xl">Authority</div>
+                    <div className="mt-5 mb-2 uppercase flex font-bold text-2xl">Authority</div>
                     <div className="flex justify-center mb-4">
                       <label className="mx-2">Enable freeze authority</label>
                       <input className="mx-2"
