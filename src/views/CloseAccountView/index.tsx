@@ -68,7 +68,7 @@ export const CloseAccountView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                Close your empty SPL token accounts and get some SOL back.
+                Account Closer
                 </h1>
                 <div className="w-full min-w-full">
                   <div>
@@ -79,7 +79,7 @@ export const CloseAccountView: FC = ({ }) => {
                           <input
                             readOnly
                             type="text"
-                            placeholder="Please, connect your wallet"
+                            placeholder="Please connect your wallet"
                             className="w-full input input-bordered input-lg"
                             value={walletToParsePublicKey}
                             style={{
