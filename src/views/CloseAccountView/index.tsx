@@ -68,7 +68,7 @@ export const CloseAccountView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                Close empty account and get $SOL back
+                Close your empty SPL token accounts and get some SOL back.
                 </h1>
                 <div className="w-full min-w-full">
                   <div>
