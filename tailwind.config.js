@@ -27,26 +27,29 @@ module.exports = {
   daisyui: {
     styled: true,
     themes: [
-          mytheme: {
-          
- "primary": "#FFFF00",
-          
- "secondary": "#FFFF00",
-          
- "accent": "#FFFF00",
-          
- "neutral": "#FFFF00",
-          
- "base-100": "#000000",
-          
- "info": "#FFFF00",
-          
- "success": "#008000",
-          
- "warning": "#FFFF00",
-          
- "error": "#FF0000",
-          },
+      // first one will be the default theme
+      // uncomment to enable
+      // "light (default)",
+      // "dark",
+      // "cupcake",
+      // "bumblebee",
+      // "emerald",
+      // "corporate",
+      // "synthwave",
+      // "retro",
+      // "cyberpunk",
+      // "valentine",
+      // "halloween",
+      // "garden",
+      // "forest",
+      // "aqua",
+      // "lofi",
+      // "pastel",
+      // "fantasy",
+      // "wireframe",
+      // "black",
+      "luxury",
+      // "dracula",
     ],
     base: true,
     utils: true,
