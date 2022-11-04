@@ -50,8 +50,7 @@ module.exports = {
       // "black",
       {
         light: {
-          primary: "blue",
-          "primary-focus": "mediumblue",
+          base: "black",
         },
       },
       // "dracula",
