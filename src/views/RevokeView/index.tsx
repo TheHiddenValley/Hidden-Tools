@@ -50,7 +50,7 @@ export const RevokeView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -67,7 +67,7 @@ export const RevokeView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                Revoke the delegated authority of your <SolanaLogo/> tokens
+                Revoker
                 </h1>
                 <div className="w-full min-w-full">
                   <div>
@@ -139,7 +139,7 @@ const TokenList = ({ tokens, error, setRefresh}: TokenListProps) => {
   if (!tokens?.length) {
     return (
       <div className="text-center text-2xl pt-16">
-        You have not delegated authority 
+        You are safe homie! Nothing to revoke!
       </div>
     );
   }
