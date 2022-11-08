@@ -109,13 +109,13 @@ export const SUATMMView: FC = ({ }) => {
       setSending(true)
       const image = await generateImg();
       console.log(image);
-      const _name = "SUATM² " + name;
-      const description = "I want to buy your " + name + ", please contact me on twitter @" + username + " ( Made with https://solanatools.vercel.app/suatmm)";
+      const _name = "NFT Message for" + name;
+      const description = "Dear holder of" + name + "," + username + "(Sent using The Hidden Valley NFT Messenger)";
       const { uri } = await metaplex.nfts().uploadMetadata({
         name: _name,
         description: description,
         image: image,
-        external_url: "https://solanatools.vercel.app/"
+        external_url: "https://www.thehiddenvalley.io"
       });
       if (uri) {
 
@@ -187,7 +187,7 @@ export const SUATMMView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                    <a>Hidden Tools</a>
                   </Link>
                 </li>
               </ul>
@@ -225,7 +225,7 @@ export const SUATMMView: FC = ({ }) => {
                     <input className="mb-[1%] text-black pl-1 border-2 border-black sm:w-[520px] w-[100%] text-center"
                       type="text"
                       required
-                      placeholder="Twitter username (without @)"
+                      placeholder="Your Message"
                       onChange={HandleUsernameChange}
                       style={{
                         borderRadius:
