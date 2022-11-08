@@ -243,8 +243,8 @@ export const SUATMMView: FC = ({ }) => {
                   {isGenerated &&
                     <div className="flex justify-center mt-4">
                       <div className="sm:w-[250px] sm:h-[250px] w-[150px] h-[150px] bg-[#FF0000]" id="canvas">
-                        <p className="mt-[25%] text-sm sm:text-lg">I want to buy your <br /> <strong>{name}</strong></p>
-                        <p className="mt-[5%] text-sm sm:text-lg">Contact me on Twitter <br /><strong>@{username}</strong></p>
+                        <p className="mt-[25%] text-sm sm:text-lg">Dear Holder of <br /> <strong>{name}</strong></p>
+                        <p className="mt-[5%] text-sm sm:text-lg"> - <br /><strong>@{username}</strong></p>
                       </div>
                     </div>
                   }
