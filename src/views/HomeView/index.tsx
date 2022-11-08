@@ -98,26 +98,6 @@ export const HomeView: FC = ({ }) => {
 
               </li>
               <li className="mb-5">
-                <Link href="/spltoken">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      Token Creator
-                    </a>
-                    <div>Create SPL Tokens using this.</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/createNFTcollection">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      Create NFT Collection
-                    </a>
-                    <div>Create and migrate NFTs to a Collection.</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
                 <Link href="/multisender">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
@@ -126,26 +106,7 @@ export const HomeView: FC = ({ }) => {
                     <div>Send multiple tokens in 1 transaction!</div>
                   </div>
                 </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/updateNFTmetadata">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      Metadata Updater
-                    </a>
-                    <div>Update the metadata of your NFT</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/upload">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      Arweave Integrator
-                    </a>
-                    <div>Upload file to Arweave</div>
-                  </div>
-                </Link>
+
               </li>
               <li className="mb-5">
                 <Link href="/suatmm">
