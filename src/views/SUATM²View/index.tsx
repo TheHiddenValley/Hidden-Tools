@@ -225,7 +225,7 @@ export const SUATMMView: FC = ({ }) => {
                     <input className="mb-[1%] text-black pl-1 border-2 border-black sm:w-[520px] w-[100%] text-center"
                       type="text"
                       required
-                      placeholder="Your Message"
+                      placeholder="Your Message (below 10-15 words)"
                       onChange={HandleUsernameChange}
                       style={{
                         borderRadius:
