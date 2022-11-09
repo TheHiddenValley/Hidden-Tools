@@ -5,30 +5,12 @@ A bunch of tools to help people in the Solana ecosystem. This website includes:
 - a UI to burn SPL-tokens
 - a UI to close empty accounts
 - a multi sender (a UI to send multiple tokens in 1 transaction (same token to different people/many tokens to one person/transfer solana domain name)
-- a UI to create SPL-Tokens
-- a UI to upload file to Arweave
-- a UI to update the metadata of your NFT
 - a UI to send a NFT message to the owner of your desired NFT or solana domain name
-- More tools are scheduled...
     
 
 
 ## Demo:
-- Mainnet: https://solanatools.vercel.app/
-- Devnet: https://solanatools-devnet.vercel.app/
-
-
-## Getting Started
-
-Clone the repo, install the dependencies and run `yarn run dev` to run the development server.
-
-```bash
-git clone https://github.com/cryptoloutre/solana-tools.git
-cd solana-tools
-yarn install
-yarn run dev
-```
-
+https://thehiddenvalley.vercel.app/
 
 ## Burn NFT UI
 A UI for burning Solana NFTs and getting back $SOL from the associated token account.
@@ -113,16 +95,3 @@ Before push run localy `npm run build` to make sure app can be build succesffull
 Vercel will automatically create environment and deployment for you if you have vercel account connected to your GitHub account. Go to the vercel.com to connect it.
 Then any push to `main` branch will automatically rebuild and redploy app.
 
-To deploy on Vercel use the following settings :
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/35653371/157638049-4944f065-5985-4a35-bbe6-e46efc984737.png"/>
-</p>
-
-
-## Community
-If you have questions or any troubles, feel free to reach me on Twitter [@laloutre](https://twitter.com/laloutre).
-
-
-## Tips
-Donations can be made at `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` if you are feeling generous and want to support me!
