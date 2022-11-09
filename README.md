@@ -1,4 +1,4 @@
-# Solana-Tools
+# Hidden Tools
 
 A bunch of tools to help people in the Solana ecosystem. This website includes:
 - a UI to burn Solana NFTs
